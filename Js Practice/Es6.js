@@ -35,16 +35,16 @@
 
 // it works as we expected it to do 
 // now with numbers it is poor practice to pass the default parament at first
-function mult(a=1, b) {
-    console.log(`multiple is ${a*b}`);
-}
-mult(1,2);
-mult(2);
+// function mult(a=1, b) {
+//     console.log(`multiple is ${a*b}`);
+// }
+// mult(1,2);
+// mult(2);
 // now this gives NAN which is when you multiply a num with undefined it will give Nan error
 // so always give default parameter at the end of parameters
 
-function multiply(a,b=2) {
-    console.log(a*b);
-}
-multiply(2,2);
-multiply(1);
+// function multiply(a,b=2) {
+//     console.log(a*b);
+// }
+// multiply(2,2);
+// multiply(1);

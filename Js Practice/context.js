@@ -1,18 +1,18 @@
 // function context 
 
-let person = {
-    name: 'john',
-    sayHello: function () {
-        console.log(this.name);
-    }
-};
-console.log(typeof(person));
-person.sayHello();
+// let person = {
+//     name: 'john',
+//     sayHello: function () {
+//         console.log(this.name);
+//     }
+// };
+// console.log(typeof(person));
+// person.sayHello();
 
-function testThis() {
-    console.log(this)
-}
-testThis();
+// function testThis() {
+//     console.log(this)
+// }
+// testThis();
 
 // manually setting the function context 
 // by using call 
@@ -48,11 +48,11 @@ testThis();
 // Now let's see another method - BIND 
 // what bindd doees is like it returns a copy of funtion with this(contxt) manipulated and arguamnets already set to it but functn yet to be execute 
 
-function sayHello(name,age) {
-    console.log(name);
-    console.log(age);
-    console.log(this);
-}
+// function sayHello(name,age) {
+//     console.log(name);
+//     console.log(age);
+//     console.log(this);
+// }
 
-let greet = sayHello.bind("jacob");
-greet("irtaza",21);
+// let greet = sayHello.bind("jacob");
+// greet("irtaza",21);
