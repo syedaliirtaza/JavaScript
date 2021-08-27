@@ -92,3 +92,4 @@ let result = getFullName(p1);
 console.log(result);
 
 personally we don't use shorthand but its good to know how to use them 
+
